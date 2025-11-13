@@ -169,5 +169,3 @@ Exemplos:
 Assim que o arquivo config.xml estiver preenchido a aplicação estará rodando na porta **8080** em
 [http://localhost:8080/](http://localhost:8080/)
   
-A aplicação Mobile está disponível em: https://github.com/Alex3397/AssetApp.git<br>
-Qualquer dúvida pode entrar em contato pelo seguinte email: alex.devops3997@gmail.com ou pelo número de whatsapp: (61) 99885-2220.

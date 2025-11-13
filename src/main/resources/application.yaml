@@ -1,0 +1,45 @@
+server:
+  port: 8989
+  error:
+    include-message: always
+    include-binding-errors: always
+    path: /error
+
+springdoc:
+  pathsToMatch:
+
+  swagger-ui:
+    path: /
+spring:
+
+
+  mvc:
+    async:
+      request-timeout: 720000
+
+  mail:
+    host: email-ssl.com.br
+    port: 587
+    username: suporte@assettec.com
+    password: Asset@1234
+
+    properties:
+      mail:
+        smtp:
+          ssl:
+            trust: "*"
+          auth: true
+          starttls:
+            enable: true
+          connectiontimeout: 5000
+          timeout: 5000
+          writetimeout: 5000
+
+logging:
+  pattern:
+    rolling-file-name: "${LOG_FILE}.%d{yyyy-MM-dd}.%i"
+  level:
+    root: INFO
+  file:
+    path: .
+    name: logs/assettec.log

@@ -1,0 +1,272 @@
+html {
+    width: auto;
+}
+
+body {
+    background-color: white;
+    margin-top: 4rem;
+    color: black;
+    text-align: center;
+}
+
+h1 {
+    font-size: 5rem;
+    font-weight: 100;
+    font-style: normal;
+    margin: 0;
+}
+.container {
+    padding: 20px;
+    border: 2px solid #373737;
+    border-radius: 8px;
+    margin: 25 auto;
+    width: 340px;
+    box-sizing: border-box;
+    background: #9999995e;
+}
+.form-container {
+    padding: auto;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+label {
+    display: block;
+    font-weight: 400;
+    margin-bottom: 7px;
+    text-align: left;
+    font-weight: 800;
+    font-size: 20px;
+    width: min-content;
+}
+input {
+    margin-bottom: 15px;
+    margin-top: 5px;
+    display: block;
+    width: 100%;
+    background-color: #bad5dd;
+    background-position: right 8px center;
+    background-repeat: no-repeat;
+    border: 1px solid #999;
+    border-radius: 6px;
+    color: black;
+    font-size: 14px;
+    line-height: 20px;
+    outline: none;
+    padding: 5px 12px;
+}
+.input-container {
+    position: relative;
+}
+.info {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 8px;
+    margin-right: 6px;
+    height: 18px;
+    width: 18px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    color: black;
+    font-family: arial;
+}
+.inter {
+    position: relative;
+    top: 1px;
+    font-size: 12px;
+    cursor: context-menu;
+}
+.button:hover {
+    color: rgb(0, 255, 255);
+    background-color: rgb(156, 0, 223);
+    border-color: rgb(156, 0, 223);
+}
+.subtitle {
+    font-size: 1.25rem;
+    margin-top: 3px;
+    font-weight: 800;
+}
+.organization-interloc {
+    position: absolute;
+    top: -3px;
+    left: -6px;
+    height: 18px;
+    width: 18px;
+}
+.organization-interloc:hover {
+    position: absolute;
+    width: 300px;
+}
+.organization-interloc:hover::after {
+    content: "Esta é uma informação obrigatória. Precisamos da sua organização registrada no InforEAM para que o Backend do InforEAM permita suas solicitações de usuário. Essas informações serão compartilhadas apenas com a Infor.";
+    color: white;
+    background-color: black;
+    position: absolute;
+    left: 30px;
+    opacity: 0.95;
+    border-radius: 8px;
+    border: 1px solid black;
+    padding: 8px;
+    font-size: 14px;
+}
+.username-interloc {
+    position: absolute;
+    top: -3px;
+    left: -6px;
+    height: 18px;
+    width: 18px;
+}
+.username-interloc:hover {
+    position: absolute;
+    width: 300px;
+}
+.username-interloc:hover::after {
+    content: "Esta é uma informação obrigatória. Precisamos do seu nome de usuário registrado no InforEAM para que o Backend do InforEAM permita suas solicitações de usuário. Essas informações serão compartilhadas apenas com a Infor.";
+    color: white;
+    background-color: black;
+    position: absolute;
+    left: 30px;
+    opacity: 0.95;
+    border-radius: 8px;
+    border: 1px solid black;
+    padding: 8px;
+    font-size: 14px;
+}
+.password-interloc {
+    position: absolute;
+    top: -3px;
+    left: -6px;
+    height: 18px;
+    width: 18px;
+}
+.password-interloc:hover {
+    position: absolute;
+    width: 300px;
+}
+.password-interloc:hover::after {
+    content: "Esta é uma informação obrigatória. Precisamos de sua senha registrada do InforEAM para que o Infor Backend permita suas solicitações de usuário. Essas informações serão compartilhadas apenas com a Infor.";
+    color: white;
+    background-color: black;
+    position: absolute;
+    left: 30px;
+    opacity: 0.95;
+    border-radius: 8px;
+    border: 1px solid black;
+    padding: 8px;
+    font-size: 14px;
+}
+.tenant-interloc {
+    position: absolute;
+    top: -3px;
+    left: -6px;
+    height: 18px;
+    width: 18px;
+}
+.tenant-interloc:hover {
+    position: absolute;
+    width: 300px;
+}
+.tenant-interloc:hover::after {
+    content: "Esta é uma informação obrigatória. Precisamos do seu Tenant registrado no InforEAM para que o Backend do Infor permita suas solicitações de usuário. Essas informações serão compartilhadas apenas com a Infor.";
+    color: white;
+    background-color: black;
+    position: absolute;
+    left: 30px;
+    opacity: 0.95;
+    border-radius: 8px;
+    border: 1px solid black;
+    padding: 8px;
+    font-size: 14px;
+}
+.email-interloc {
+    position: absolute;
+    top: -3px;
+    left: -6px;
+    height: 18px;
+    width: 18px;
+}
+.email-interloc:hover {
+    position: absolute;
+    width: 300px;
+}
+.email-interloc:hover::after {
+    content: "Insira seu e-mail de preferência, nós lhe enviaremos um e-mail com seu token e outras credenciais úteis para mantê-lo em segurança. Seu email não será compartilhado.Nós nunca enviaremos e-mails solicitando suas credenciais.";
+    color: white;
+    background-color: black;
+    position: absolute;
+    left: 30px;
+    opacity: 0.95;
+    border-radius: 8px;
+    border: 1px solid black;
+    padding: 8px;
+    font-size: 14px;
+}
+.company-interloc {
+    position: absolute;
+    top: -3px;
+    left: -6px;
+    height: 18px;
+    width: 18px;
+}
+.company-interloc:hover {
+    position: absolute;
+    width: 300px;
+}
+.company-interloc:hover::after {
+    content: "This is the company you work for, it will be used to filter data that only you and your colleagues will be able to handle, removing this information would hinder performance and future features implementations.";
+    color: white;
+    background-color: black;
+    position: absolute;
+    left: 30px;
+    opacity: 0.95;
+    border-radius: 8px;
+    border: 1px solid black;
+    padding: 8px;
+    font-size: 14px;
+}
+.credentials {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.cred-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.cred-link:hover {
+    color: #a970ff;
+}
+
+@media only screen and (max-width: 1000px) {
+    h1 {
+        font-size: 8rem;
+    }
+    .subtitle {
+        font-size: 2rem;
+    }
+    .container {
+        width: 75%;
+        box-sizing: border-box;
+    }
+    label {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+    .email {
+        margin-top: 2rem;
+    }
+    input {
+        font-size: 2rem;
+        margin: 2rem 0;
+    }
+    .button {
+        margin: 5rem 0;
+        padding: 2rem;
+    }
+    .form-container {
+        padding: 2rem;
+    }
+}

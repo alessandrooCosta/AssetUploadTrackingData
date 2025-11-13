@@ -1,0 +1,6 @@
+<core>
+    <server>45.190.89.55</server>
+    <ports>
+        <http>7979</http>
+    </ports>
+</core>
